@@ -5,7 +5,7 @@ KERNEL="./vmlinuz-3.10.0-229.el7.x86_64"
 INITRD="./initramfs-3.10.0-229.el7.x86_64.img"
 CMDLINE="earlyprintk=serial quiet console=ttyS0 acpi=off root=/dev/mapper/centos_xhyve-root rd.lvm.lv=centos_xhyve/root rd.lvm.lv=centos_xhyve/swap rw"
 
-MEM="-m 22G"
+MEM="-m 2G"
 SMP="-c 2"
 NET="-s 2:0,virtio-net"
 IMG_HDD="-s 4,virtio-blk,./centos.img"
