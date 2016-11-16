@@ -6,7 +6,7 @@ CMDLINE="root=/dev/ram0 init=/linuxrc  dokeymap looptype=squashfs loop=/image.sq
 
 MEM="-m 1G"
 NET="-s 2:0,virtio-net"
-IMG_CD="-s 3,ahci-cd,/Volumes/DiskX/ISO/install-amd64-minimal-20160804.iso"
+IMG_CD="-s 3,ahci-cd,$HOME/Downloads/install-amd64-minimal-${release_date}.iso"
 IMG_HDD="-s 4,virtio-blk,gentoo.img"
 PCI_DEV="-s 0:0,hostbridge -s 31,lpc"
 LPC_DEV="-l com1,stdio"
