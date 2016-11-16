@@ -1,3 +1,4 @@
 # ignore hdd images #
 #####################
-centos.img
+centos/centos.img
+gentoo/gentoo.img
